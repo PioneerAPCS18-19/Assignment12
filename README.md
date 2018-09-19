@@ -15,10 +15,10 @@ the user wins according to the following rules:
 ### Sample Outputs
 ```
 Enter your three numbers:
-6
-6
-8
-The winning numbers are  6, 6, and 8
+9
+7
+3
+The winning numbers are  7, 3, and 9
 You win $10,000!
 ```
 ```
