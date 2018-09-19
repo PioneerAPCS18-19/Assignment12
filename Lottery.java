@@ -77,25 +77,26 @@ public class Lottery
      * @param int for result
      * @return none
      * 
-     * win = 0 means all three numbers matched.
-     * win = 1 means two numbers matched.
-     * win = 2 means three numbers matched.
+     * win = 3 means all three numbers matched.
+     * win = 2 means two numbers matched.
+     * win = 1 means one number matched.
+     * win = 0 means one number matched.
      */
     private void printResult(int win)
     {
         System.out.println("The winning numbers are: " + w1 + ", " + w2 + ", and " + w3);
         
-        if(win == 0)
+        if(win == 3)
         {
             System.out.println("You win $" + jackpot + "!");
         }
 
-        else if(win == 1)
+        else if(win == 2)
         {
             System.out.println("You win $" + (jackpot / 2) + "!");
         }
 
-        else if(win == 2)
+        else if(win == 1)
         {
             System.out.println("You win $1!");
         }
